@@ -1,14 +1,15 @@
+import { ProfileComponent } from './components/profile.component';
 import { GithubService } from './services/github.service';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   template: `
-  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+ <br/> <br/><br/><br/><br/><nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">GITHUBPRO</a>
+      <a class="navbar-brand" href="#">GITHUBPROSEARCH</a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
@@ -35,7 +36,8 @@ import { Component } from '@angular/core';
       </div>
     </nav>
   
-  `,
+  <div class="container"><profile> </profile>
+  </div>`,
    providers: [GithubService]
 })
 export class AppComponent {

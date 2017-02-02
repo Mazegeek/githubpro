@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+.panel-title {
+    color: mediumseagreen;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+    font-size: 30px;
+    font-weight: bold;
+}
